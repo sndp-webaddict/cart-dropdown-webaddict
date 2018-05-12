@@ -1,0 +1,47 @@
+.basket-item-count {
+    color: #ffffff;
+    letter-spacing: 0.04em;
+    position: relative;
+    background: #000000;
+    display: inline-block;
+}
+.basket-item-count .fa {
+    padding-right: 10px;
+}
+.hover_cart_box {
+    display: none;
+    width: 244px;
+    right: 0;
+    z-index: 99;
+    color: #000000;
+    font-size: 12px
+}
+.hover_cart_box img {
+    width: 55px;
+}
+.basket-item-count {
+    color: #ffffff;
+    letter-spacing: 0.04em;
+    position: relative;
+}
+.basket-item-count:hover > .hover_cart_box {
+    display: block;
+    position: absolute;
+
+}
+.hover_cart_box ul {
+    background: #000000;
+}
+td.btn-center a {
+    text-align: center;
+    background: #000000;
+    display: block;
+    color: #ffffff;
+    padding: 10px;
+}
+.hover_cart_box h3 {
+    font-size: 12px;
+    background: #000000;
+    color: #ffffff;
+    padding: 10px;
+}
